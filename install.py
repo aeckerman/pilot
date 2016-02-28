@@ -6,7 +6,7 @@ def sh(command):
 def run():
 	sh("git clone https://github.com/blubrackets/pilot")
 	sh("cd pilot")
-	sh("pip3 install .")
+	sh("python3 setup.py install")
 	print("All done!")
 
 if __name__ == '__main__':
